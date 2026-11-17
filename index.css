@@ -5,7 +5,7 @@
     margin: 15px;
     
     & h1{
-        align-self: flex-start;
+        
         color: blueviolet;
         font-size: large;
     }
@@ -20,4 +20,26 @@
         color: black;
         list-style: none;
    }
-   
+   .log{
+    padding: 10px;
+    margin: 25px;
+    border: 1px solid blueviolet;
+    border-radius: 4px;
+    width: 100px;
+    color: black;
+    &:hover{
+        background-color: rgb(128, 128, 128);
+    }
+   }
+   .sign{
+    padding: 10px;
+    margin: 25px;
+    border: 1px solid blueviolet;
+    border-radius: 4px;
+    width: 100px;
+    background-color: blueviolet;
+    color: white;
+    &:hover{
+        background-color: rgb(83, 43, 226);
+    }
+   }

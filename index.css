@@ -85,15 +85,32 @@
     gap: 84px;
     display: flex;
     justify-content: space-between;
-    &p {
+    & p {
   max-width: 450px; 
   line-height: 1.5; 
 }
    }
    .image{
-        position: relative;
+        
         max-width: 500px;
         max-height: 304px;
         border-radius: 8px;
-        top: 40px;
+        margin-top: 40px;
+    }
+    .second {
+        max-width: 1040px;
+        max-height: 555px;
+        top: 1459px;
+        left: 200px;
+        & h1{
+            color: black;
+        text-align: center;
+        }
+        & p{
+           max-width: 700px;
+            line-height: 1.5;
+            text-align: center;
+            margin: 0 auto;
+        }
+        
     }

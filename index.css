@@ -187,7 +187,7 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        margin: 10px auto;
+        margin: 120px auto;
         max-width:1217px ;
         max-height: 412px;
         top: 2709px;
@@ -211,6 +211,7 @@
             max-height: 120px;
             align-self: center;
             margin-left: 250px;
+            margin-bottom: 15px;
             border-radius: 50%;
         }
          & button{
@@ -227,5 +228,11 @@
     } 
             }
         }
-        
+        footer{
+            display: flex;
+            justify-content: space-around;
+            text-align: center;
+            align-items: center;
+            
+        }
     

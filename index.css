@@ -229,7 +229,20 @@
             }
         }
         footer{
+            max-width: 1440px;
+            max-height: 402px;
+            top: 3217px;
+            background-color: #FFEDCC;
             display: flex;
-            
+            justify-content: space-between;
+            align-items: center;
+            text-align: center;
+            & h1{
+                color: #543EE0;
+            }
+            & li{
+                list-style: none;
+                font-size: x-large;
+            }
         }
     

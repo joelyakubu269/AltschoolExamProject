@@ -7,7 +7,7 @@
     & h1{
         
         color: blueviolet;
-        font-size: large;
+        
     }
    
 }
@@ -100,7 +100,7 @@
     .second {
         display: flex;
         flex-direction: column;
-        max-width: 1040px;
+        max-width: 1440px;
         max-height: 555px;
         top: 1459px;
         left: 200px;
@@ -119,11 +119,14 @@
             max-width: 1014px;
             max-height: 324px;
             margin: 0 auto;
+            
             display: flex;
-            justify-content: space-around;
+            justify-content: space-between;
             gap: 20px;
         }
         & .group1, .group2, .group3{
+            flex: 1;
+            
             max-width: 306px;
             max-height: 324px;
             justify-content: baseline;
@@ -133,6 +136,16 @@
             bottom: 15px;
             left: 18px;
             gap: 12px;
+            & h1, p {
+                margin: 15px 15px;
+                text-align: left;
+            }
         }
         
+    }
+    .three{
+        max-width: 1440px;
+        max-height:492 ;
+        top: 2121px;
+        background-color: #ffedcc;
     }

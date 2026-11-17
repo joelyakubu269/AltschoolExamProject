@@ -98,6 +98,8 @@
         margin-top: 40px;
     }
     .second {
+        display: flex;
+        flex-direction: column;
         max-width: 1040px;
         max-height: 555px;
         top: 1459px;
@@ -107,7 +109,7 @@
             color: black;
         text-align: center;
         }
-        & p{
+        & .chatter{
            max-width: 700px;
             line-height: 1.5;
             text-align: center;

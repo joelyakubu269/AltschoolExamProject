@@ -1,6 +1,7 @@
 .container{
     display: flex;
     justify-content: space-between;
+    margin: 15px;
     & h1{
         align-self: flex-start;
         color: blueviolet;
@@ -8,8 +9,10 @@
     }
     & nav{
         display: flex;
-        justify-content: space-between;
-        align-self: center;
+        padding: 10px;
+        align-items: center;
+        
         list-style: none;
+        
     }
 }

@@ -145,7 +145,20 @@
     }
     .three{
         max-width: 1440px;
-        max-height:492 ;
+        max-height:692 ;
         top: 2121px;
         background-color: #ffedcc;
+        display: flex;
+        align-items: center;
+        text-align: end;
+        margin-top: 20px;
+        
+        & img{
+            max-width:200px;
+            max-height: 200px;
+            top: 112px;
+            left: 53px;
+            border-radius: 50%;
+        }
+        
     }

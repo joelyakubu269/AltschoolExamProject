@@ -77,3 +77,23 @@
    
     }
    }
+   .first{
+    max-width: 1296px;
+    max-height: 404px;
+    top: 959px;
+    left: 72px;
+    gap: 84px;
+    display: flex;
+    justify-content: space-between;
+    &p {
+  max-width: 450px; 
+  line-height: 1.5; 
+}
+   }
+   .image{
+        position: relative;
+        max-width: 500px;
+        max-height: 304px;
+        border-radius: 8px;
+        top: 40px;
+    }

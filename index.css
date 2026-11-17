@@ -186,5 +186,46 @@
     .four{
         display: flex;
         justify-content: space-between;
+        align-items: center;
         margin: 10px auto;
-    }
+        max-width:1217px ;
+        max-height: 412px;
+        top: 2709px;
+        gap: 120px;
+        & .image{
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            align-items: center;
+            gap: 16px;
+            height: 300px;
+        }
+        & .girl, .six{
+             max-width:120px;
+            max-height: 120px;
+            
+            border-radius: 50%;
+        }
+        & .five{
+            max-width: 120px;
+            max-height: 120px;
+            align-self: center;
+            margin-left: 250px;
+            border-radius: 50%;
+        }
+         & button{
+                width: 157px;
+                height: 56;
+
+    padding: 10px;
+    border: 1px solid #543EE0;
+    border-radius: 4px;
+        background-color: rgb(83, 43, 226);
+    color: white;
+    &:hover{
+        background-color: blueviolet;
+    } 
+            }
+        }
+        
+    

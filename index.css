@@ -1,18 +1,25 @@
 .container{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     margin: 15px;
+    
     & h1{
         align-self: flex-start;
         color: blueviolet;
         font-size: large;
     }
-    & nav{
-        display: flex;
+   
+}
+.middle li{
+        top: 25px;
+        display: inline;
         padding: 10px;
-        align-items: center;
+        justify-content: center;
+        align-self: center;
+        
         
         list-style: none;
         
-    }
-}
+    
+   }
